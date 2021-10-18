@@ -1,0 +1,128 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+
+
+}
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  color: #9b9fb1;
+  font-size: 1rem;
+}
+
+.main-container {
+  width: 25%;
+  margin: 100px auto 100px;
+
+  background-color: #fefefe;
+  border: 0.5px white solid;
+  border-radius: 10px;
+
+
+
+}
+
+.container-component {
+  padding: 1rem;
+}
+
+ .container-Payment{
+   margin: 10px 30px 30px 30px;
+   padding: 25px 0;
+   background-color:#f8f9fe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.5px white solid;
+  border-radius: 10px;
+
+}
+
+.container-Payment a {
+  margin-right: 20px;
+  color: #837cd8;
+
+}
+
+.inner-cont-pay {
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.inner-cont-pay p ,h4{
+  margin: 5px 0 0 0;
+}
+
+.icon-music {
+  margin-right: 10px;
+}
+
+
+
+@media (max-width: 1042px) {
+    .main-container {
+      width: 50%;
+      margin: 50 auto;
+    }
+}
+
+@media (max-width: 558px) {
+    .main-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+.component-discr {
+width: 80%;
+margin: 0 auto;
+line-height: 1.5;
+
+}
+.btn-one {
+  display: block;
+  margin: 10px 30px 30px 30px;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 19px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+}
+
+.btn-two {
+  display: block;
+  padding: 10px 0 50px 0 ;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-one:hover {
+  -webkit-box-shadow: 0 11px 27px #666666;
+   -moz-box-shadow: 0 11px 27px #666666;
+   box-shadow: 0 11px 27px #666666;
+}
+
+
+
+.cont-img {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 10px 10px 0 0 ;
+
+
+}
